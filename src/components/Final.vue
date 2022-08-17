@@ -7,7 +7,7 @@
       <source src="../assets/eu/nos.mp3" type="audio/mpeg" />
     </audio>
     <div class="title" v-if="opened">
-      <v-card class="mx-auto" color="#D32F2F" dark max-width="400">
+      <v-card class="mx-auto" color="#D32F2F" dark max-width="300">
         <v-card-title>
           <v-icon large left> mdi-calendar-heart </v-icon>
           <span class="text-h6 font-weight-light">Nosso dia 16</span>
@@ -100,7 +100,7 @@ body {
 .container {
   position: relative;
   width: 50%;
-  height: 640px;
+  height: 340px;
   margin-top: 100px;
   background: rgba(0, 0, 0, 0);
   transform: rotate(-30deg) skew(25deg) scale(0.8);
@@ -133,7 +133,6 @@ body {
   position: fixed;
   min-width: 100%;
   min-height: 100%;
-  top: -700px;
 }
 
 /* Add some content at the bottom of the video/page */
